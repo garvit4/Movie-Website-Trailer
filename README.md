@@ -6,11 +6,15 @@ Where for each provided YouTube URL, user will be able to see Tiles for each of 
 To Watch a Movie Trailer, user can select/click on a speicifc tile and user can view the trailer by you tube player opening on the portal itself.
 
 # Prerequisites
+
 ## Installing Python
 
 -Download Windows x86 MSI installer from python.org. If you're sure that your machine runs a 64-bit version of Windows, feel free to download the Windows x86-64 MSI installer instead.
+
 -Once download is finished locate the file.
+
 -Ensure that both pip is installed and that Python is added to your PATH.
+
 -To confirm open IDLE(Python GUI) and run python code.
 
 ## Run This Project
