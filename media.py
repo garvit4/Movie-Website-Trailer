@@ -1,14 +1,17 @@
 import webbrowser
 
+
 class Movie():
     """This class provides a way to store movie related information"""
-       
-    def __init__(self , movie_title , movie_storyline , poster_image , trailer_youtube):
-        self.title = movie_title
-        self.storyline = movie_storyline
+
+    # Constructer get's initialise when instances are created.
+    def __init__(self, title, storyline, poster_image, trailer_youtube):
+        # Instance variables store data of class Movie
+        self.title = title
+        self.storyline = storyline
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
 
+    # Open youtube trailer in Webbrowser
     def show_trailer(self):
-       webbrowser.open(self.trailer_youtube_url)
-        
+        webbrowser.open(self.trailer_youtube_url)
