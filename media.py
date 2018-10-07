@@ -5,11 +5,11 @@ class Movie():
     """
     This class provides a way to store movie related information
 
-	Attributes:
-	title(str): describes movie title.
-	storyline(str): describes story of movie
-	poster_image(str): has poster image link for the movie
-	trailer_youtube(str): has youtube trailer link for the movie
+    Attributes:
+    title(str): describes movie title.
+    storyline(str): describes story of movie
+    poster_image(str): has poster image link for the movie
+    trailer_youtube(str): has youtube trailer link for the movie
     """
 
     # Constructer get's initialise when instances are created.
